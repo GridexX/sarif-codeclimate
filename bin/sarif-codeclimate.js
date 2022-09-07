@@ -3,7 +3,7 @@
 const { red, green } = require('colors');
 const argv = require('minimist')(process.argv.slice(2));
 const converter = require('../lib/converter');
-const parser = require('../lib.parser');
+const parser = require('../lib/parser');
 
 const { data, error, savedToFile } = converter(argv);
 

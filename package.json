@@ -1,6 +1,6 @@
 {
   "name": "sarif-codeclimate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert your SARIF output into a readable JSON compatible with GitLab Code Climate Tool",
   "main": "lib/converter.js",
   "bin": {
