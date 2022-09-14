@@ -7,7 +7,7 @@
 
 This project aims to convert a SARIF output file from a linter to a CodeClimate output file.
 It could be use inside GitLab to display to the user the result of the linter inside the MR.
-
+It was first created to be used in the [`mega_linter`](https://r2devops.io/_/r2devops-bot/mega_linter) job hosted on [r2devops.io](r2devops.io).
 
 ## Installation
 
@@ -66,4 +66,4 @@ Are you missing something or want to contribute? Feel free to open an [issue](ht
 MIT 
 
 ## Author
-GridexX, a french DevOps working for [R2DevOps](https://r2devops.io)
+GridexX, a french DevOps working for [R2DevOps](https://r2devops.io), with help of [nvuillam](https://github.com/nvuillam/nvuillam).
