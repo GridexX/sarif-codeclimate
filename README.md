@@ -42,19 +42,15 @@ Here is an example of how to read a SARIF file and convert it to a CodeClimate f
 
 
 ```javascript
-const parser = require('sarif-codeclimate/lib/parser');
+const { convert } = require('sarif-codeclimate/out/lib/converter');
 const fs = require('fs');
+const {
+  parseResult: {
+    data,
+  }
+} = convert("megalinter-report.sarif");
+fs.writeFileSync('codeclimate-result.json', JSON.stringify(data, null, 4));
 
-//Read the content of a SARIF file
-const sarifFile = fs.readFileSync('file.sarif', 'utf8');
-// Return a object with a data that represent the JSON object and an error field
-const { data, error } = parser(sarifFile);
-if (error) {
-  console.error(error);
-  return;
-} else {
-  fs.writeFileSync('codeclimate-result.json', JSON.stringify(data, null, 4));
-}
 
 ```
 
