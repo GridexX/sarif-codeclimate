@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from 'commander';
 import { green, red } from 'colors';
 import { writeFileSync } from 'fs';
