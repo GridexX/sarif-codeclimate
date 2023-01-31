@@ -53,10 +53,15 @@ describe('Parse a SARIF file', () => {
     const result = sarifJsonObject.runs[0].results[0];
     expect(result.message?.text).toEqual(data[0].description);
   });
-  it('Ignore a cell with missing startLine Info', () => {
+  it('Missing value are replaced with default value', () => {
+
+    const jsonObject = sarifJsonObject.runs.flatMap((run) => run.results);
+    const lineWithoutStartLine = jsonObject.filter((result) => result.locations?.at(0)?.physicalLocation?.region?.startLine === undefined)
     // This is a cell with missing startLine Info
-    const dataResults = data.filter((r) => r.description === 'should have a package comment');
-    expect(dataResults.length).toEqual(0);
+    lineWithoutStartLine.forEach((result) => {
+      const dataResult = data.find((r) => r.description === result.message?.text);
+      expect(dataResult?.location.lines.begin).toEqual(0);
+    });
   });
 
   it('Severity level match the expected', () => {
