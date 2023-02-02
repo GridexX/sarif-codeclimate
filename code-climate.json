@@ -1,0 +1,5106 @@
+[
+    {
+        "description": "Quote this to prevent word splitting.",
+        "fingerprint": "cb232e823ffde1141cfb066f5acdc8f5",
+        "severity": "minor",
+        "location": {
+            "path": "/.git-hooks/pre-commit.sh",
+            "lines": {
+                "begin": 5
+            }
+        }
+    },
+    {
+        "description": "Pin versions in apk add. Instead of `apk add <package>` use `apk add <package>=<version>`",
+        "fingerprint": "60bfa6be11ec39a9bb73c2404e9be41d",
+        "severity": "minor",
+        "location": {
+            "path": "/Dockerfile",
+            "lines": {
+                "begin": 6
+            }
+        }
+    },
+    {
+        "description": "Use the `--no-cache` switch to avoid the need to use `--update` and remove `/var/cache/apk/*` when done installing packages",
+        "fingerprint": "1d1cf525aaa18d18a9c4c6952d653e6e",
+        "severity": "info",
+        "location": {
+            "path": "/Dockerfile",
+            "lines": {
+                "begin": 6
+            }
+        }
+    },
+    {
+        "description": "`COPY` to a relative destination without `WORKDIR` set.",
+        "fingerprint": "be1f718189afad40f63c43fb42ee36e7",
+        "severity": "minor",
+        "location": {
+            "path": "/Dockerfile",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "b8c35e5662dd2d4c42c8753ea9c55b70",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/gitlab.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "fa72f36450e6a2e9ec9d810235b6c76a",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/ports/file_service.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "1e7b6fe7ea7981e83d7f2e689bcd1a0b",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/ports/version_analyzer.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "don't use ALL_CAPS in Go names; use CamelCase",
+        "fingerprint": "49b9fdc8c27c7629a481ecd81de1c51c",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/helper.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "0bef5c82fe6761cdb576a046d00da064",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/messages.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "struct field FileUrl should be FileURL",
+        "fingerprint": "9c1f0c0aaf0620135b2783db26a88932",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/version.go",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "exported type FileService should have comment or be unexported",
+        "fingerprint": "bc3c8dd230af1fd68cbe72054d19d558",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/ports/file_service.go",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "67b2037c036995b7d12f02d4fcc4d6de",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/helper.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported type VersionAnalyzer should have comment or be unexported",
+        "fingerprint": "c31dc016f20905e2e20df9ebe5c90dbd",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/ports/version_analyzer.go",
+            "lines": {
+                "begin": 8
+            }
+        }
+    },
+    {
+        "description": "exported type MessageType should have comment or be unexported",
+        "fingerprint": "ef563e41cc896361f6b3c7410305430c",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/messages.go",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "c898442190aeafe64b4982ad304b2f8f",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/versions.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "173a9f76d9345ad6528aa781d93e4664",
+        "severity": "minor",
+        "location": {
+            "path": "/db/db.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "14b7d12044c9c01af859f003fbf3966b",
+        "severity": "minor",
+        "location": {
+            "path": "/db/labels.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "a3a2934c9bb31d9ddc095f7124f7d17e",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/Sort.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "85d0c7a329011b3e69896ee0762fb376",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "81213f6e60f11745ab87924ce49b7d71",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/handler.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "don't use underscores in Go names; var db_main should be dbMain",
+        "fingerprint": "1cbc80797b0135b256c68388f568f7f7",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/handler_test.go",
+            "lines": {
+                "begin": 32
+            }
+        }
+    },
+    {
+        "description": "var regexRepoUrl should be regexRepoURL",
+        "fingerprint": "1a9c2ef98f340979bf95048c1307d38d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/pipeline.go",
+            "lines": {
+                "begin": 46
+            }
+        }
+    },
+    {
+        "description": "should replace response.RateUp += 1 with response.RateUp++",
+        "fingerprint": "5674a4f2b105d5b27f73c6d1ddfbd781",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 191
+            }
+        }
+    },
+    {
+        "description": "package comment should be of the form \"Package handlers ...\"",
+        "fingerprint": "a12966427e4c5caa6bc3f988e6605ebb",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/organizations.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "struct field RepositoryUrl should be RepositoryURL",
+        "fingerprint": "f87aae6b24de349c718b01aea8d9bd48",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/ports/crawler.go",
+            "lines": {
+                "begin": 3
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "2d8ca0b8a5056a103fe5efac427e5691",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/request.go",
+            "lines": {
+                "begin": 56
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "df59cc518547e7f808872cf742bf2e55",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/routes.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "e6bed17cec766dea4127a595931f16b2",
+        "severity": "minor",
+        "location": {
+            "path": "/job/helper.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func GetById should be GetByID",
+        "fingerprint": "86f05ff367f9c5496cf5f4e0b591654d",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 263
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "36818e475b38db7788490eb45bb1c7ba",
+        "severity": "minor",
+        "location": {
+            "path": "/job/update.go",
+            "lines": {
+                "begin": 15
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "7bec5cb056d94222ab37cdbc29b88c14",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 61
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "cbb2dfea947e31c534197862cfe433ed",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/db.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "8a5e60efb082f440f4a0c84b372b900e",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/gitlab.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "var jobId should be jobID",
+        "fingerprint": "8704b0abb8fc7d4f4110231045a33e13",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/jobQuery.go",
+            "lines": {
+                "begin": 60
+            }
+        }
+    },
+    {
+        "description": "error should be the last type when returning multiple items",
+        "fingerprint": "9c41c05e85e0a33b7f0b215d80e3b61c",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/kratosAuth.go",
+            "lines": {
+                "begin": 45
+            }
+        }
+    },
+    {
+        "description": "var mockHttpClient should be mockHTTPClient",
+        "fingerprint": "a769c68fca4488cfd850c5def3dc0eac",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/kratosAuth_test.go",
+            "lines": {
+                "begin": 16
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "9643b48aa63aa151dd03f9331a1e2b92",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/analyzer.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "6c44e1e2c3da37d1938cb375f704b70a",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 48
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "29a7e1bbb14399f8a88298bd6d61ed55",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 15
+            }
+        }
+    },
+    {
+        "description": "exported function New should have comment or be unexported",
+        "fingerprint": "26cf23ad247e76760653ecc90498e2cc",
+        "severity": "minor",
+        "location": {
+            "path": "/router/router.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "8a8bb5bc6ee9c9ef7ddf70a4fb26b557",
+        "severity": "minor",
+        "location": {
+            "path": "/router/validator.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "d1b15337b5682e243c117f23dd98a413",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "7b165bea239c7f48154829b64f109be5",
+        "severity": "minor",
+        "location": {
+            "path": "/s3/s3.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "f12a7a79ee690dd763b8af33149b8417",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/config.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "99f79ef713806a3c01e7e8fb98154703",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "8d6f9eb15d5015231d95e20e33fea6d1",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab_helper.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "1cb257b22524f8a83e73deb7b6efeffa",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 47
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "781498150037c2de663a3765f009ccd9",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/kratos/kratos.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "dd4f95521709b664f1f278b1059cc5fe",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "b5b8e759a76493c68886841c0106c94f",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pipeline.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "f017032efb2716084763858bffc16167",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/project.go",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "f483e3d1774f0acab8d8236036b53d9a",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/token/token.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "13d6eaf9833aa42e80d4c1bbb001521a",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/parser.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "0dc4d06aebe461b272fe2dcc8407fe21",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/localCrawler.go",
+            "lines": {
+                "begin": 35
+            }
+        }
+    },
+    {
+        "description": "struct field PaymentSuccessUrl should be PaymentSuccessURL",
+        "fingerprint": "dd89840338cfbdb7d06e6d84dd0704c6",
+        "severity": "minor",
+        "location": {
+            "path": "/configuration/configuration.go",
+            "lines": {
+                "begin": 65
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "1d21f0a03a51dbd03a94cd50aa1f01b4",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/version.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported const REGEX_TAG_VARIABLE should have comment or be unexported",
+        "fingerprint": "177e2045617551878a5a786a8fbccd72",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/helper.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "exported var ContextKeyPerPage should have comment or be unexported",
+        "fingerprint": "7a2342733d49a92a31cd07bb7049480f",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/versions.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "exported const MessageWarning should have comment (or a comment on this block) or be unexported",
+        "fingerprint": "220328ebff007745bcf16646c0a415cb",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/messages.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "comment on exported function New should be of the form \"New ...\"",
+        "fingerprint": "aafddc30de19eadc92d6551e7d4e840c",
+        "severity": "minor",
+        "location": {
+            "path": "/db/db.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "exported function RegisterContext should have comment or be unexported",
+        "fingerprint": "147d35c4ada7584792e6d6acf91af336",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 57
+            }
+        }
+    },
+    {
+        "description": "exported const SortByEmpty should have comment (or a comment on this block) or be unexported",
+        "fingerprint": "707f444df54452a7a84a59c1f7fa8536",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/Sort.go",
+            "lines": {
+                "begin": 6
+            }
+        }
+    },
+    {
+        "description": "don't use underscores in Go names; var db_creation should be dbCreation",
+        "fingerprint": "7ee6245a923dbb96cc5e3eec5b7ccb87",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/handler_test.go",
+            "lines": {
+                "begin": 37
+            }
+        }
+    },
+    {
+        "description": "exported type Handler should have comment or be unexported",
+        "fingerprint": "384d9efec462b412a4184cf2ebe4fdd6",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/handler.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "should replace response.RateDown += 1 with response.RateDown++",
+        "fingerprint": "80aac34aa353bbf23b129efa11dae400",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 193
+            }
+        }
+    },
+    {
+        "description": "var matchRepoUrl should be matchRepoURL",
+        "fingerprint": "c31b26225cc53b757bdb77bcc491c309",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/pipeline.go",
+            "lines": {
+                "begin": 47
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "2376dbf150495fc04176b132e3cdf1b5",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/ports/crawler.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetUserOrganizations should be of the form \"GetUserOrganizations ...\"",
+        "fingerprint": "563017f4c829287e0d58c02c0c3c262a",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/organizations.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "exported method Handler.Register should have comment or be unexported",
+        "fingerprint": "ae8498332f2dfe8737131a509782cd7f",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/routes.go",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "struct field ProjectUrl should be ProjectURL",
+        "fingerprint": "7049b5f23982d8d4c141885931cbb3a7",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/request.go",
+            "lines": {
+                "begin": 95
+            }
+        }
+    },
+    {
+        "description": "func GetJobImportById should be GetJobImportByID",
+        "fingerprint": "2e34a9b6d06db0c90591bc73ace6928c",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 283
+            }
+        }
+    },
+    {
+        "description": "exported function ChunkSlice should have comment or be unexported",
+        "fingerprint": "a1b1063c8b9e7a872bffa3ab9a48ebf5",
+        "severity": "minor",
+        "location": {
+            "path": "/job/helper.go",
+            "lines": {
+                "begin": 33
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "cd69917eda5c5e2ef8f31d7cedecb01a",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 115
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "e352d6409ffaad8b946abd58d0f8fbbf",
+        "severity": "minor",
+        "location": {
+            "path": "/job/update.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported type GitlabMiddleware should have comment or be unexported",
+        "fingerprint": "91a807c53aa6c705ecc5fa7da993cbbf",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/gitlab.go",
+            "lines": {
+                "begin": 18
+            }
+        }
+    },
+    {
+        "description": "exported type DBMiddleware should have comment or be unexported",
+        "fingerprint": "6ccf9befaff1a5e0de6baae3debf2dfa",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/db.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "696ec08b3d5b1047293ffc1f61beb63b",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/kratosAuth.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "d6c3bacff7efb9d7050126d5f474cb4d",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/jobQuery.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported const ObjectNameJobDef should have comment (or a comment on this block) or be unexported",
+        "fingerprint": "73eab21459460fe81317ad2d3961fa31",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/analyzer.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "struct field JobImportId should be JobImportID",
+        "fingerprint": "3fd12f41ea45b361bd72460bde14c54b",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 17
+            }
+        }
+    },
+    {
+        "description": "struct field JobImportId should be JobImportID",
+        "fingerprint": "52841fcc08db7fe0f3846b97f5bdeab1",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 74
+            }
+        }
+    },
+    {
+        "description": "exported function NewValidator should have comment or be unexported",
+        "fingerprint": "ece2822a2791872c0acbe45bfa89907d",
+        "severity": "minor",
+        "location": {
+            "path": "/router/validator.go",
+            "lines": {
+                "begin": 4
+            }
+        }
+    },
+    {
+        "description": "exported type S3 should have comment or be unexported",
+        "fingerprint": "b5c7572e28138dd33960fae3dd70db5b",
+        "severity": "minor",
+        "location": {
+            "path": "/s3/s3.go",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "4e923eb4abd8fd1e5e6e68be04ccd681",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 24
+            }
+        }
+    },
+    {
+        "description": "exported type Error should have comment or be unexported",
+        "fingerprint": "451e39ea42d953b18d4b631bf7acef5a",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 8
+            }
+        }
+    },
+    {
+        "description": "exported function ParseBoolOrPanic should have comment or be unexported",
+        "fingerprint": "71da1ac630e0624e7fda1d473a826114",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/config.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "2c390f7f5cf2e9e5b21d9b5b7bc6e242",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 47
+            }
+        }
+    },
+    {
+        "description": "exported const DefaultPage should have comment or be unexported",
+        "fingerprint": "635a70ddd0baacb87e9f17464611317b",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 6
+            }
+        }
+    },
+    {
+        "description": "exported type IdentityTraits should have comment or be unexported",
+        "fingerprint": "3c328d93461c21314ac1787c23abb0f2",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/kratos/kratos.go",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "01ce24052b7d91d5de8627f94c7bfbd5",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/project.go",
+            "lines": {
+                "begin": 68
+            }
+        }
+    },
+    {
+        "description": "exported var PipelineFilesPath should have comment or be unexported",
+        "fingerprint": "d494f77d98050c1f7e45de67fe4d3db8",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pipeline.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "struct field PaymentCancelUrl should be PaymentCancelURL",
+        "fingerprint": "d295d20361d2370e7667440233cc1072",
+        "severity": "minor",
+        "location": {
+            "path": "/configuration/configuration.go",
+            "lines": {
+                "begin": 66
+            }
+        }
+    },
+    {
+        "description": "var repoUrl should be repoURL",
+        "fingerprint": "92251e50ed49e7be1940cf5ed807ccf7",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/localCrawler.go",
+            "lines": {
+                "begin": 58
+            }
+        }
+    },
+    {
+        "description": "exported type Version should have comment or be unexported",
+        "fingerprint": "2bd85f0fc010f80d86fcd341e6375a8f",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/version.go",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "description": "exported type LocalVersionsAnalyzer should have comment or be unexported",
+        "fingerprint": "225f8c36974940fdbd65f700ab56f67d",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/versions.go",
+            "lines": {
+                "begin": 16
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.GetSort should have comment or be unexported",
+        "fingerprint": "9f65d1e82a958e2577545a6cb9635337",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 136
+            }
+        }
+    },
+    {
+        "description": "comment on exported function AutoMigrate should be of the form \"AutoMigrate ...\"",
+        "fingerprint": "e2118b488169998131207b81e596187b",
+        "severity": "minor",
+        "location": {
+            "path": "/db/db.go",
+            "lines": {
+                "begin": 40
+            }
+        }
+    },
+    {
+        "description": "struct field JobUrl should be JobURL",
+        "fingerprint": "6601587b66584125312b61c11b05383d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "comment on exported function NewHandler should be of the form \"NewHandler ...\"",
+        "fingerprint": "9f95e14429d77f72d3181c5f9b155a9d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/handler.go",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "exported type CrawlerRequest should have comment or be unexported",
+        "fingerprint": "7f6d55fb0c6991b437161835fe3502f5",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/ports/crawler.go",
+            "lines": {
+                "begin": 2
+            }
+        }
+    },
+    {
+        "description": "var errRepoUrl should be errRepoURL",
+        "fingerprint": "c765fb0b743e5b1f3a7a745f8fdf60e9",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/pipeline.go",
+            "lines": {
+                "begin": 47
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "aa3b9f760bd54acd69ecf2c287872c48",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 283
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "4c419f3e01c519aa6f9beaaeb510d46c",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/request.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "19dc2647a36d29adf50a1cbe0e19291e",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 153
+            }
+        }
+    },
+    {
+        "description": "exported function NewGitlabMiddleware should have comment or be unexported",
+        "fingerprint": "e0466fd6d9153c023f92ce9ae6df9171",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/gitlab.go",
+            "lines": {
+                "begin": 25
+            }
+        }
+    },
+    {
+        "description": "exported type KratosMiddleware should have comment or be unexported",
+        "fingerprint": "0b6d7e8649ce80fefbfb82d806b26636",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/kratosAuth.go",
+            "lines": {
+                "begin": 15
+            }
+        }
+    },
+    {
+        "description": "exported function NewDBMiddleware should have comment or be unexported",
+        "fingerprint": "11d93bb79e53a8b6d37f5558b184edfe",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/db.go",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "exported type JobQueryMiddleware should have comment or be unexported",
+        "fingerprint": "dac336483e0f79fad7c618868528b6ad",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/jobQuery.go",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "bf873c2ae98dcaf8209e29daa4ec722c",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 75
+            }
+        }
+    },
+    {
+        "description": "struct field JobImportId should be JobImportID",
+        "fingerprint": "ebc7382d96f5bd5a969bfc94aa513f59",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "exported function NewS3Service should have comment or be unexported",
+        "fingerprint": "1369e6b156b6c2e2826a3f3fa4b0a571",
+        "severity": "minor",
+        "location": {
+            "path": "/s3/s3.go",
+            "lines": {
+                "begin": 33
+            }
+        }
+    },
+    {
+        "description": "exported type Validator should have comment or be unexported",
+        "fingerprint": "0b93388e9cf3dc311f41aa01eee9b700",
+        "severity": "minor",
+        "location": {
+            "path": "/router/validator.go",
+            "lines": {
+                "begin": 10
+            }
+        }
+    },
+    {
+        "description": "exported function NewError should have comment or be unexported",
+        "fingerprint": "52a18f9589ae19d3f6cf3058399d04dc",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "cf9326ed0d3cd370012cdc82ab0555a4",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 154
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "f738b75e153db8383c9a4f88c7da0bd5",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported const DefaultPerPage should have comment or be unexported",
+        "fingerprint": "7021e848dc8995868a83068fe39061e4",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "comment on exported function HashPipeline should be of the form \"HashPipeline ...\"",
+        "fingerprint": "9b623c111b7a1c12f4940cf15046f456",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pipeline.go",
+            "lines": {
+                "begin": 12
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "9d17d0320441d042e7367e7764131461",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/project.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "756e6f5df1bd4a6c27106ed6756fb022",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/localCrawler.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported type Configuration should be of the form \"Configuration ...\" (with optional leading article)",
+        "fingerprint": "03ecc74eb7c960133c336e9005f723bf",
+        "severity": "minor",
+        "location": {
+            "path": "/configuration/configuration.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "exported method Version.AppendMessage should have comment or be unexported",
+        "fingerprint": "b32a2d030e897e864525f887258c94dd",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/versions/models/version.go",
+            "lines": {
+                "begin": 32
+            }
+        }
+    },
+    {
+        "description": "comment on exported function PingDatabase should be of the form \"PingDatabase ...\"",
+        "fingerprint": "8e031eef088c6ba0af24f3f75ecb62ef",
+        "severity": "minor",
+        "location": {
+            "path": "/db/db.go",
+            "lines": {
+                "begin": 80
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.SetIdentity should have comment or be unexported",
+        "fingerprint": "bd2b06f4faf3f871a420b9a34568f6a2",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 140
+            }
+        }
+    },
+    {
+        "description": "struct field JobRawUrl should be JobRawURL",
+        "fingerprint": "7af1d33e1e7ecb19fac18a84f496c1c7",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "0fefd177a203242b1dbfbfedf1e32718",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/pipeline.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "ebf661055e3ad7facc500f61cf05ae6c",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 314
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "c03c1329c0dcef6a51c1c9d10eda1eec",
+        "severity": "minor",
+        "location": {
+            "path": "/crawler/request.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported method GitlabMiddleware.FetchUserData should be of the form \"FetchUserData ...\"",
+        "fingerprint": "ecc3ebe900a9e7fe4170c3b0bd505430",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/gitlab.go",
+            "lines": {
+                "begin": 34
+            }
+        }
+    },
+    {
+        "description": "var repoUrl should be repoURL",
+        "fingerprint": "50ec7afd9993b197845fe00713cfa8f2",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 157
+            }
+        }
+    },
+    {
+        "description": "comment on exported method DBMiddleware.DBEnsureConnection should be of the form \"DBEnsureConnection ...\"",
+        "fingerprint": "7656632a0ae31657c1ca52d1f4735724",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/db.go",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "exported function NewKratosMiddleware should have comment or be unexported",
+        "fingerprint": "db3e71ebc8013df5e31f7b9d9bcbced9",
+        "severity": "minor",
+        "location": {
+            "path": "/middlewares/kratosAuth.go",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "struct field JobRawUrl should be JobRawURL",
+        "fingerprint": "b1f553aadf97dcfe4ce4acbb9b562a4b",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 86
+            }
+        }
+    },
+    {
+        "description": "exported method S3.PutFile should have comment or be unexported",
+        "fingerprint": "9b5736b42e46936593d63863082cc265",
+        "severity": "minor",
+        "location": {
+            "path": "/s3/s3.go",
+            "lines": {
+                "begin": 59
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "76d314c31baaab1fd80ddef2fc0cd4aa",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 22
+            }
+        }
+    },
+    {
+        "description": "exported function JSONErrMessage should have comment or be unexported",
+        "fingerprint": "5d8806e68d1601d3bd3f2e0f56c66525",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 24
+            }
+        }
+    },
+    {
+        "description": "exported method Validator.Validate should have comment or be unexported",
+        "fingerprint": "631af9627cffbf8b22118f5b756fc2ab",
+        "severity": "minor",
+        "location": {
+            "path": "/router/validator.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "comment on exported function IsStringInUnsortedSlice should be of the form \"IsStringInUnsortedSlice ...\"",
+        "fingerprint": "9a0cece9253988bc129ba38e45d6bc7e",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 11
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "2f2eaca8bcc007d1766442c999cbdf11",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 154
+            }
+        }
+    },
+    {
+        "description": "exported const MaxPerPage should have comment or be unexported",
+        "fingerprint": "e7d50d3dc2ccf57013f7e078ca4e76f0",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 8
+            }
+        }
+    },
+    {
+        "description": "comment on exported function CloneRepository should be of the form \"CloneRepository ...\"",
+        "fingerprint": "cd1fce2f0ac74aa787f1866956bc2a57",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/project.go",
+            "lines": {
+                "begin": 20
+            }
+        }
+    },
+    {
+        "description": "comment on exported function New should be of the form \"New ...\"",
+        "fingerprint": "159506b18ad16c0c4b1a52f7ecaa32b4",
+        "severity": "minor",
+        "location": {
+            "path": "/configuration/configuration.go",
+            "lines": {
+                "begin": 69
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.SetJob should have comment or be unexported",
+        "fingerprint": "1371e6b73c3f40e364341c6519322b2e",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 144
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GeneratePipeline should be of the form \"GeneratePipeline ...\"",
+        "fingerprint": "5d2fe98d0fd1144dba2b1f4752eb8141",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/pipeline.go",
+            "lines": {
+                "begin": 17
+            }
+        }
+    },
+    {
+        "description": "struct field ReadmeUrl should be ReadmeURL",
+        "fingerprint": "13a7a4c60f8f48fbd4d076d042dd784f",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 23
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "bedbc9aac3171dad6ab5412d42dab795",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 314
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "ae39785086903c8761e040715d303a87",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 239
+            }
+        }
+    },
+    {
+        "description": "exported method S3.BuildPath should have comment or be unexported",
+        "fingerprint": "b87cdcf63a5a7fc14dd66d5b2a405389",
+        "severity": "minor",
+        "location": {
+            "path": "/s3/s3.go",
+            "lines": {
+                "begin": 122
+            }
+        }
+    },
+    {
+        "description": "struct field ReadmeUrl should be ReadmeURL",
+        "fingerprint": "6b4e40dfb0cb51faaabbf1843355b956",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 87
+            }
+        }
+    },
+    {
+        "description": "comment on exported type ErrResourceConflict should be of the form \"ErrResourceConflict ...\" (with optional leading article)",
+        "fingerprint": "cfd91b6b1d701a8cda603d0f7f6518d2",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 33
+            }
+        }
+    },
+    {
+        "description": "struct field JobImportId should be JobImportID",
+        "fingerprint": "5e9af6ee2686c207e93e5b51b3d1c19f",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 38
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetNamespace should be of the form \"GetNamespace ...\"",
+        "fingerprint": "4505dd68c8d348dbf76b2cdb020ea885",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 46
+            }
+        }
+    },
+    {
+        "description": "comment on exported type Pagination should be of the form \"Pagination ...\" (with optional leading article)",
+        "fingerprint": "108ef18aa025d40bdee1294a5e2ed8a5",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 10
+            }
+        }
+    },
+    {
+        "description": "don't use underscores in Go names; var trim_path should be trimPath",
+        "fingerprint": "8b469f098e5f380561171b3dd6621d4e",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 163
+            }
+        }
+    },
+    {
+        "description": "comment on exported function PushInRepository should be of the form \"PushInRepository ...\"",
+        "fingerprint": "2b6f89c1fb1280addd9d79f782b54445",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/project.go",
+            "lines": {
+                "begin": 67
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.GetIdentity should have comment or be unexported",
+        "fingerprint": "413631531179f212917ce8709abbfa10",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 148
+            }
+        }
+    },
+    {
+        "description": "func parameter instanceUrl should be instanceURL",
+        "fingerprint": "6a5af818d05af2604c40ccef5deb1e5a",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 400
+            }
+        }
+    },
+    {
+        "description": "struct field ChangelogUrl should be ChangelogURL",
+        "fingerprint": "b517337b3799cbc9b42a2255c2549dbe",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 24
+            }
+        }
+    },
+    {
+        "description": "var jobRedisAnalysisJson should be jobRedisAnalysisJSON",
+        "fingerprint": "42cb85e2e4120cf0be587636079833af",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 366
+            }
+        }
+    },
+    {
+        "description": "comment on exported type ErrResourceNotFound should be of the form \"ErrResourceNotFound ...\" (with optional leading article)",
+        "fingerprint": "2a97b9b249aa0819ab7acc98a9e7250d",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 40
+            }
+        }
+    },
+    {
+        "description": "struct field ChangelogUrl should be ChangelogURL",
+        "fingerprint": "5b379323cc89d16d6e5e5ebbea0241fb",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 88
+            }
+        }
+    },
+    {
+        "description": "comment on exported function AddQueryParam should be of the form \"AddQueryParam ...\"",
+        "fingerprint": "5a700e4f87831234ac9a174c08e45d55",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/job.go",
+            "lines": {
+                "begin": 75
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "ac30465723da00c65842b81028f9b6be",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 41
+            }
+        }
+    },
+    {
+        "description": "don't use underscores in Go names; var trim_project should be trimProject",
+        "fingerprint": "5e52984817d05b4112d243ea18dee169",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 176
+            }
+        }
+    },
+    {
+        "description": "comment on exported function NewPagination should be of the form \"NewPagination ...\"",
+        "fingerprint": "022f3e532b718e00bd75baf2422551f6",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/pagination.go",
+            "lines": {
+                "begin": 16
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.GetJob should have comment or be unexported",
+        "fingerprint": "1ddcece236a144cf0a4475b0c0f1184d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 152
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "b5301ad9563a1f9fe9109f16956d6dff",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 44
+            }
+        }
+    },
+    {
+        "description": "comment on exported const DefaultTier should be of the form \"DefaultTier ...\"",
+        "fingerprint": "33f0fa3916e104ce9f4ed2449e6651ce",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "comment on exported type ErrForbidden should be of the form \"ErrForbidden ...\" (with optional leading article)",
+        "fingerprint": "c037188d1d9c0c8b2e3106ad983004f6",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 47
+            }
+        }
+    },
+    {
+        "description": "var jobImportId should be jobImportID",
+        "fingerprint": "89b7e31f952ed324f96cfe55587ed0ae",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 440
+            }
+        }
+    },
+    {
+        "description": "package comment should be of the form \"Package models ...\"",
+        "fingerprint": "f07ec5b9eb1f062386823376484d0ad1",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "if block ends with a return statement, so drop this else and outdent its block",
+        "fingerprint": "7d5049f0785beffaf4ada93070b57b78",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 59
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "91da674a063e602e8d373c0ccc16e4f8",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 45
+            }
+        }
+    },
+    {
+        "description": "comment on exported method ServiceContext.GetTiers should be of the form \"GetTiers ...\"",
+        "fingerprint": "09c55c181f8015d0f6a3febf6b9262b1",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 185
+            }
+        }
+    },
+    {
+        "description": "exported const OfficialTier should have comment or be unexported",
+        "fingerprint": "97ba435fb2d564e751ca1d1c5aa6bc0b",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 28
+            }
+        }
+    },
+    {
+        "description": "struct field RepoUrl should be RepoURL",
+        "fingerprint": "073f67e7a79ebbd36fbaf0566e212208",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 66
+            }
+        }
+    },
+    {
+        "description": "should drop = 0 from declaration of var count; it is the zero value",
+        "fingerprint": "712b6689420809c4bc6a507c62c63ee7",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 30
+            }
+        }
+    },
+    {
+        "description": "comment on exported type ErrUnprocessableEntity should be of the form \"ErrUnprocessableEntity ...\" (with optional leading article)",
+        "fingerprint": "fde8d8b01986e37239f566172470f6b4",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 54
+            }
+        }
+    },
+    {
+        "description": "context.Context should be the first parameter of a function",
+        "fingerprint": "5822d8b41f67191d01a3afd339152b86",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 84
+            }
+        }
+    },
+    {
+        "description": "exported type JobPolicy should have comment or be unexported",
+        "fingerprint": "c3353907c7b73c144b2a272563e7c92b",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 16
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.HasGitlabToken should have comment or be unexported",
+        "fingerprint": "a679642ed79aff3f795c648e15f904d7",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 210
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "9788759a5e4a8b795c3b6ea72abce2e4",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 45
+            }
+        }
+    },
+    {
+        "description": "struct field JobImportId should be JobImportID",
+        "fingerprint": "41cc8bb903db3161f079f40a4de83382",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 105
+            }
+        }
+    },
+    {
+        "description": "exported type ListParams should have comment or be unexported",
+        "fingerprint": "5e7514f6c5ca7a174b2be5be45d6a502",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 33
+            }
+        }
+    },
+    {
+        "description": "comment on exported type ErrInternalServer should be of the form \"ErrInternalServer ...\" (with optional leading article)",
+        "fingerprint": "e12b1ede0c9a7102560e9ab807d92084",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/errors.go",
+            "lines": {
+                "begin": 61
+            }
+        }
+    },
+    {
+        "description": "should drop = 0 from declaration of var count; it is the zero value",
+        "fingerprint": "48da201637abdb89485b444ca0ffa463",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 68
+            }
+        }
+    },
+    {
+        "description": "exported const JobPolicyPublic should have comment (or a comment on this block) or be unexported",
+        "fingerprint": "373982a787250b6def3c6c3cd8f57b8f",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "context.Context should be the first parameter of a function",
+        "fingerprint": "5f3e89ee328456c5e8e467329a5aee93",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 117
+            }
+        }
+    },
+    {
+        "description": "struct field JobId should be JobID",
+        "fingerprint": "7c6ecc97a8360889f4300aa054c7ef8f",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 72
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.HasGitHubToken should have comment or be unexported",
+        "fingerprint": "ac912fd68f70243be5fb7e30ec6c9c31",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 218
+            }
+        }
+    },
+    {
+        "description": "comment on exported function List should be of the form \"List ...\"",
+        "fingerprint": "be45fcedc6eedc7b372b4b400807767e",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 45
+            }
+        }
+    },
+    {
+        "description": "func parameter jobImportId should be jobImportID",
+        "fingerprint": "9fc4ae6ad94bbf2569eb55b13af72dd0",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 128
+            }
+        }
+    },
+    {
+        "description": "should drop = 0 from declaration of var count; it is the zero value",
+        "fingerprint": "059b176d308f60ed4edcbb2152cb18a4",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 155
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "99eb425c490319b5e52b5e8282741e2c",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported type Job should have comment or be unexported",
+        "fingerprint": "0ff2f5796f3c0b7ffdd50ddae6cf37c8",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 33
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.GetGitlabToken should have comment or be unexported",
+        "fingerprint": "2cb9fc0bebf54ef753b8f08ef1396f1f",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 226
+            }
+        }
+    },
+    {
+        "description": "func parameter jobId should be jobID",
+        "fingerprint": "fa3027bb525173537d50459cf4769d49",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 117
+            }
+        }
+    },
+    {
+        "description": "var baseUrlStr should be baseURLStr",
+        "fingerprint": "47f52856f08bffaf3ec6dc279206febf",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 200
+            }
+        }
+    },
+    {
+        "description": "comment on exported function ListRating should be of the form \"ListRating ...\"",
+        "fingerprint": "e6835ec5bd9feefe0463083742d2d0ce",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 194
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetNewGitlabClient should be of the form \"GetNewGitlabClient ...\"",
+        "fingerprint": "5b3c23a4eee1e503a1a23c117716eb36",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 13
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "62179dad9f6a0ea4c01a1f65c7f0fe3b",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.GetGithubToken should have comment or be unexported",
+        "fingerprint": "683a78d420c90f2a2b985350c7637420",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 234
+            }
+        }
+    },
+    {
+        "description": "exported type Label should have comment or be unexported",
+        "fingerprint": "0621f1683bd97fa690a23a5be7735e23",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 62
+            }
+        }
+    },
+    {
+        "description": "var readmeUrl should be readmeURL",
+        "fingerprint": "f96e93d59825ee9316094090c6f7ea6b",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 201
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "5cd80e1f3f0763a1c315fc2999c1e842",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported function FetchGitlabUserNamespaces should be of the form \"FetchGitlabUserNamespaces ...\"",
+        "fingerprint": "8b48c0f568bfd5b2d6a4f04351e4f383",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 23
+            }
+        }
+    },
+    {
+        "description": "comment on exported function ListRatingByUserName should be of the form \"ListRatingByUserName ...\"",
+        "fingerprint": "1091be972965940fdd97bf5b0ba259c5",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 217
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.HasLabelFilter should have comment or be unexported",
+        "fingerprint": "8e02c796eaf1c44bdfee0ca2e936b80a",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 247
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetJobImportsByOwnerName should be of the form \"GetJobImportsByOwnerName ...\"",
+        "fingerprint": "05c85ac441f253c9bf41a2bf494cf585",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 26
+            }
+        }
+    },
+    {
+        "description": "var changelogUrl should be changelogURL",
+        "fingerprint": "1ba59f9c6d222b5ff08c7dde6293e93a",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 202
+            }
+        }
+    },
+    {
+        "description": "exported type JobImport should have comment or be unexported",
+        "fingerprint": "be2d455a4b130edce1d02ac3fc884c47",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 70
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetGitlabUserNamespaces should be of the form \"GetGitlabUserNamespaces ...\"",
+        "fingerprint": "9dc9072eebf90cdb036cd549fb52deff",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 83
+            }
+        }
+    },
+    {
+        "description": "comment on exported type JobRedis should be of the form \"JobRedis ...\" (with optional leading article)",
+        "fingerprint": "670e80f968be8aafd56bb4b062a9aa9c",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 8
+            }
+        }
+    },
+    {
+        "description": "comment on exported method ServiceContext.GetUserGitlabNamespaces should be of the form \"GetUserGitlabNamespaces ...\"",
+        "fingerprint": "da4edbb800fd127156c7db777b3c9886",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 266
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetJobImportById should be of the form \"GetJobImportById ...\"",
+        "fingerprint": "836c690cbe94609825eca65684b2ead2",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 282
+            }
+        }
+    },
+    {
+        "description": "var jobUrl should be jobURL",
+        "fingerprint": "9586d07676d73d6cd7bd994d1c8ed6fa",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 203
+            }
+        }
+    },
+    {
+        "description": "comment on exported function AddJobsTodo should be of the form \"AddJobsTodo ...\"",
+        "fingerprint": "f1bfb76c9b28ff6ea7bdf6ad1988d127",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 60
+            }
+        }
+    },
+    {
+        "description": "comment on exported function StoreGitlabUserNamespaces should be of the form \"StoreGitlabUserNamespaces ...\"",
+        "fingerprint": "a49e423c2dc577a8c595123efce9f967",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 116
+            }
+        }
+    },
+    {
+        "description": "exported type Version should have comment or be unexported",
+        "fingerprint": "fae70396da29e9aacc2c52eeafcc859e",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 80
+            }
+        }
+    },
+    {
+        "description": "exported method ServiceContext.SetUserGitlabNamespaces should have comment or be unexported",
+        "fingerprint": "de2b1e7cc259284be4e6192ea426b2f4",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/context/context.go",
+            "lines": {
+                "begin": 271
+            }
+        }
+    },
+    {
+        "description": "exported type JobImportRedis should have comment or be unexported",
+        "fingerprint": "671f0514d8172982c53f9d01f6999b11",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 20
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "a1f34220ae71091b51e119353ee950a1",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 260
+            }
+        }
+    },
+    {
+        "description": "exported function ListJobImportsByUser should have comment or be unexported",
+        "fingerprint": "0456b34b0dcc65bc899ec4d524e85d44",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 300
+            }
+        }
+    },
+    {
+        "description": "comment on exported function GetTreeFolderFromRepoPath should be of the form \"GetTreeFolderFromRepoPath ...\"",
+        "fingerprint": "e5d07e8a2e40bf7c578a2b249b0b780f",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 153
+            }
+        }
+    },
+    {
+        "description": "exported function GetInfoJobImport should have comment or be unexported",
+        "fingerprint": "58fe4256e4fe3db0a97485eea76c2a46",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 153
+            }
+        }
+    },
+    {
+        "description": "exported type Rating should have comment or be unexported",
+        "fingerprint": "296b9a56d6e52e300452b43639d168cd",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 95
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "cc0daa19c22a820642f111248a1ce1ce",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported type JobImportSummary should be of the form \"JobImportSummary ...\" (with optional leading article)",
+        "fingerprint": "aa7eb5cb5a0434517abfcf1592a840e2",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 35
+            }
+        }
+    },
+    {
+        "description": "comment on exported function ExtractNsPath should be of the form \"ExtractNsPath ...\"",
+        "fingerprint": "8cdc31ad53a7839aa2682897e1a37678",
+        "severity": "minor",
+        "location": {
+            "path": "/utils/gitlab.go",
+            "lines": {
+                "begin": 195
+            }
+        }
+    },
+    {
+        "description": "comment on exported function CreateJobImport should be of the form \"CreateJobImport ...\"",
+        "fingerprint": "1fbb3acd849b138c2fb9d7d799d6d580",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 313
+            }
+        }
+    },
+    {
+        "description": "exported method Job.GetLatestFixedVersion should have comment or be unexported",
+        "fingerprint": "0b4bdc816f05eff8642389665aba7818",
+        "severity": "minor",
+        "location": {
+            "path": "/models/models.go",
+            "lines": {
+                "begin": 164
+            }
+        }
+    },
+    {
+        "description": "comment on exported function AnalyzeJobImport should be of the form \"AnalyzeJobImport ...\"",
+        "fingerprint": "ebe0033745a1519234903a5ee1878f6f",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 238
+            }
+        }
+    },
+    {
+        "description": "exported function NewJobImportSummary should have comment or be unexported",
+        "fingerprint": "3fa5eeae6f2ebf936629878d7f249ef0",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 45
+            }
+        }
+    },
+    {
+        "description": "comment on exported type JobAnalysisResponse should be of the form \"JobAnalysisResponse ...\" (with optional leading article)",
+        "fingerprint": "92299b3daa1da1f821f684fd7e558960",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/response.go",
+            "lines": {
+                "begin": 56
+            }
+        }
+    },
+    {
+        "description": "comment on exported function CreateRating should be of the form \"CreateRating ...\"",
+        "fingerprint": "3472c95eccd8f96e0262018f78e35cc8",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 338
+            }
+        }
+    },
+    {
+        "description": "exported function WatchRedisSet should have comment or be unexported",
+        "fingerprint": "231917da33c02c74ff934bda74a29a97",
+        "severity": "minor",
+        "location": {
+            "path": "/jobImports/jobImports.go",
+            "lines": {
+                "begin": 407
+            }
+        }
+    },
+    {
+        "description": "comment on exported type AnalysisMessage should be of the form \"AnalysisMessage ...\" (with optional leading article)",
+        "fingerprint": "aa407c82a88a02b59e6a5b35138d07bc",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 56
+            }
+        }
+    },
+    {
+        "description": "comment on exported function DeleteRating should be of the form \"DeleteRating ...\"",
+        "fingerprint": "391779334fb7017ab90e06be16884144",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 369
+            }
+        }
+    },
+    {
+        "description": "comment on exported function IncreaseVersionUsage should be of the form \"IncreaseVersionUsage ...\"",
+        "fingerprint": "6d6fb7b16b8930a97b24a5d7813b630c",
+        "severity": "minor",
+        "location": {
+            "path": "/job/job.go",
+            "lines": {
+                "begin": 552
+            }
+        }
+    },
+    {
+        "description": "comment on exported type Analysis should be of the form \"Analysis ...\" (with optional leading article)",
+        "fingerprint": "0e7c0a4f02fbc34114a5647c07c026d7",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 64
+            }
+        }
+    },
+    {
+        "description": "comment on exported type JobRedisAnalysis should be of the form \"JobRedisAnalysis ...\" (with optional leading article)",
+        "fingerprint": "0badfe01b9f6826e7ae8dcbdd649818b",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 70
+            }
+        }
+    },
+    {
+        "description": "exported type GetJobImport should have comment or be unexported",
+        "fingerprint": "81b000c47972dd27c6aa95c45bd63344",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 77
+            }
+        }
+    },
+    {
+        "description": "exported function NewGetJobImport should have comment or be unexported",
+        "fingerprint": "262aa7d4ebbbdcdba81bf7b7f3493b0c",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 83
+            }
+        }
+    },
+    {
+        "description": "exported function NewJobAnalysis should have comment or be unexported",
+        "fingerprint": "8773561cd54c3adfe4368c1b85b02051",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 91
+            }
+        }
+    },
+    {
+        "description": "exported function NewJobRedisAnalysis should have comment or be unexported",
+        "fingerprint": "e355b013dcf7028e57d993398f303aef",
+        "severity": "minor",
+        "location": {
+            "path": "/models/redis.go",
+            "lines": {
+                "begin": 117
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "d168e77b6804263d09efbfe2440d5d8d",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported type GormLogger should have comment or be unexported",
+        "fingerprint": "7d7bec448a2f8c2829f5979c35db426c",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 10
+            }
+        }
+    },
+    {
+        "description": "exported function NewGormLogger should have comment or be unexported",
+        "fingerprint": "9444f1a72240ccf58a11e94eff969955",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "var fUrl should be fURL",
+        "fingerprint": "1eb8d4cb95546eb9f3678bff9ba8b65d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 122
+            }
+        }
+    },
+    {
+        "description": "const jobBaseUrl should be jobBaseURL",
+        "fingerprint": "a6877e3784a79a220f75c486e008359e",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 38
+            }
+        }
+    },
+    {
+        "description": "var jobImportId should be jobImportID",
+        "fingerprint": "484503396e877289b401e8b0b5a7b73c",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 467
+            }
+        }
+    },
+    {
+        "description": "exported method GormLogger.Info should have comment or be unexported",
+        "fingerprint": "2d91de6ca9ed8e4b71f5db3bc59af7f9",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 25
+            }
+        }
+    },
+    {
+        "description": "var repoUrl should be repoURL",
+        "fingerprint": "2163a96d0d216e2d231c7413cdedd1e9",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 476
+            }
+        }
+    },
+    {
+        "description": "const docBaseUrl should be docBaseURL",
+        "fingerprint": "d31d606269778f27b48ae46841cf9ba7",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 39
+            }
+        }
+    },
+    {
+        "description": "var regexRepoUrl should be regexRepoURL",
+        "fingerprint": "04196fa20267511856807c848b6d0f87",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 644
+            }
+        }
+    },
+    {
+        "description": "exported method GormLogger.Warn should have comment or be unexported",
+        "fingerprint": "5aeb29063e6d0f515e81862c73f855d0",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 29
+            }
+        }
+    },
+    {
+        "description": "var matchRepoUrl should be matchRepoURL",
+        "fingerprint": "bed198e9c39a336a38b66dcbff2e58b1",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 649
+            }
+        }
+    },
+    {
+        "description": "func parameter repoUrl should be repoURL",
+        "fingerprint": "90d7065acd68306cc0f92d92ed0c2a01",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 263
+            }
+        }
+    },
+    {
+        "description": "var errRepoUrl should be errRepoURL",
+        "fingerprint": "ff5b924aa4c75d53eb694f24fab51f5d",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 649
+            }
+        }
+    },
+    {
+        "description": "exported method GormLogger.Trace should have comment or be unexported",
+        "fingerprint": "a8790e5ef527dc3e3a79a9187db46aeb",
+        "severity": "minor",
+        "location": {
+            "path": "/db/logger.go",
+            "lines": {
+                "begin": 37
+            }
+        }
+    },
+    {
+        "description": "var jobImportId should be jobImportID",
+        "fingerprint": "e2639f9a9975259419fcb3a9c5f444c0",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 693
+            }
+        }
+    },
+    {
+        "description": "don't use underscores in Go names; var analysis_result should be analysisResult",
+        "fingerprint": "ef599c9b63a76909b968cc1f4dedfcf0",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 320
+            }
+        }
+    },
+    {
+        "description": "if block ends with a return statement, so drop this else and outdent its block",
+        "fingerprint": "c04f00df32b211438a45cffd603cc105",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 771
+            }
+        }
+    },
+    {
+        "description": "should omit type [2]string from declaration of var YamlExtensions; it will be inferred from the right-hand side",
+        "fingerprint": "bd398e2612d440d292bdb8195afd2b35",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 44
+            }
+        }
+    },
+    {
+        "description": "method buildJobUrl should be buildJobURL",
+        "fingerprint": "e11a3145eda7382ce3774b3237b34266",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 416
+            }
+        }
+    },
+    {
+        "description": "method parameter baseUrl should be baseURL",
+        "fingerprint": "6eac4f24a9682000f50c98acdfba175d",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 416
+            }
+        }
+    },
+    {
+        "description": "package comment should be of the form \"Package handlers ...\"",
+        "fingerprint": "41bd28fcb3c3511f7c12644e98ee17db",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "exported const LatestTag should have comment (or a comment on this block) or be unexported",
+        "fingerprint": "5e37f117a152a1e7c40c473a7fc85704",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 36
+            }
+        }
+    },
+    {
+        "description": "should have a package comment",
+        "fingerprint": "ec2a76eef64db913996984e405a7c4bf",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 0
+            }
+        }
+    },
+    {
+        "description": "comment on exported type Project should be of the form \"Project ...\" (with optional leading article)",
+        "fingerprint": "1b8e6192ac48185843b7c49cfcd01bc0",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 41
+            }
+        }
+    },
+    {
+        "description": "exported var YamlExtensions should have comment or be unexported",
+        "fingerprint": "04b72a73cc49121d667e577371555f84",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 44
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.IsAlive should be of the form \"IsAlive ...\"",
+        "fingerprint": "e4b500f7774501064b7b47e575f9b329",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 48
+            }
+        }
+    },
+    {
+        "description": "comment on exported type Rules should be of the form \"Rules ...\" (with optional leading article)",
+        "fingerprint": "5e9e63d4d1a5741be8d99fdbdc7df1da",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 54
+            }
+        }
+    },
+    {
+        "description": "exported type Rule should have comment or be unexported",
+        "fingerprint": "60ff0605a8efaea148cf8254cfed2d56",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 58
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.IsReady should be of the form \"IsReady ...\"",
+        "fingerprint": "ae8b9d34a42229b5ac8f2c9fab53f6d3",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 57
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetJobVersionFiles should be of the form \"GetJobVersionFiles ...\"",
+        "fingerprint": "00ec5b46c4650b7b0c4e444e5903df3c",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 78
+            }
+        }
+    },
+    {
+        "description": "comment on exported function NewPipeline should be of the form \"NewPipeline ...\"",
+        "fingerprint": "351e08437e51d7be018ed07dde981f6e",
+        "severity": "minor",
+        "location": {
+            "path": "/pipelines/pipelines.go",
+            "lines": {
+                "begin": 262
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetJobs should be of the form \"GetJobs ...\"",
+        "fingerprint": "41d11f0d02a95621aefb6b6d6e516260",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 172
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetJob should be of the form \"GetJob ...\"",
+        "fingerprint": "e7c2b73b7d4cc3d53e8911dcccef5262",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 247
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetRatings should be of the form \"GetRatings ...\"",
+        "fingerprint": "73d8e8c130763a729493960f3d355fa8",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 289
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.CreateRating should be of the form \"CreateRating ...\"",
+        "fingerprint": "a858511fbc90450657d120efbbdd6f10",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 338
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.DeleteRating should be of the form \"DeleteRating ...\"",
+        "fingerprint": "bba0fb09b5b85ea79aeebabdb7896fab",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 385
+            }
+        }
+    },
+    {
+        "description": "exported method Handler.GetJobImports should have comment or be unexported",
+        "fingerprint": "232f27a05191f85fe174f2966bd2ce08",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 418
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.GetJobImport should be of the form \"GetJobImport ...\"",
+        "fingerprint": "5b366f900573622ac9a46f87fd5ff7d3",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 456
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.UpdateJob should be of the form \"UpdateJob ...\"",
+        "fingerprint": "975a4a0dba37b4b4b1eea4f851205bcc",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 498
+            }
+        }
+    },
+    {
+        "description": "exported method Handler.RefreshJob should have comment or be unexported",
+        "fingerprint": "83112670549f55edd1d951436c2f6bd5",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 554
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.CreateJobImport should be of the form \"CreateJobImport ...\"",
+        "fingerprint": "2e9ca90309f977b51e2123675781b8c8",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 606
+            }
+        }
+    },
+    {
+        "description": "comment on exported method Handler.DeleteJob should be of the form \"DeleteJob ...\"",
+        "fingerprint": "de11b7beaddef5775b76c4b46e2c7e4f",
+        "severity": "minor",
+        "location": {
+            "path": "/handlers/job.go",
+            "lines": {
+                "begin": 788
+            }
+        }
+    },
+    {
+        "description": "Ensure that a user for the container has been created",
+        "fingerprint": "24df456a99d4093c1d16245f9d0dc1f7",
+        "severity": "major",
+        "location": {
+            "path": "Dockerfile",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Base64 High Entropy String",
+        "fingerprint": "e1f6cb351a19a9ce20177d907a59951c",
+        "severity": "major",
+        "location": {
+            "path": "terraform/production/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 42
+            }
+        }
+    },
+    {
+        "description": "Base64 High Entropy String",
+        "fingerprint": "1e5bd04a76d96efe2788c0de8a24bccb",
+        "severity": "major",
+        "location": {
+            "path": "terraform/staging/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 36
+            }
+        }
+    },
+    {
+        "description": "Ensure that the global security field has rules defined",
+        "fingerprint": "c50808e198e31eae19f8fbed063364a1",
+        "severity": "major",
+        "location": {
+            "path": "reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Ensure that security operations is not empty.",
+        "fingerprint": "1f8ea09b1b0e00579d681b00b9bb0d0d",
+        "severity": "major",
+        "location": {
+            "path": "reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "11ce2e8540c894ed1add549b22ae0f21",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1496
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "83539b1e9a0880957fb2b539058935ae",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1479
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "12e5cd8675de71cf76faaaca85297426",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1476
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "207e57fad5744c84ede5dfd950cedd61",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1473
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0bd77fa1a4ae48101d765bd72a1075ca",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1470
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "9bf0b6adc78d820d05122484be83f4dd",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1467
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "5823d5ef00149fe028160769095c120f",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1464
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "b1eefbddeca7ede2e18dcf297ca437d0",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1461
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "bbe8f09d34e7d2e41696c928139746cc",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1458
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "3bd47e03b459150a92120566fc2e553b",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1455
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7c72f880b1209dcb92f97d774fc0f488",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1452
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "00db22eaa215e80ae90494c12c53090b",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1449
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "cdc950d19b1315c42715fd304025fdf8",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1442
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7b94e3be7b3655ecb89c9ee61dd20015",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1439
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "fd982741eaaff1dbea05d6958235d249",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1436
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "86db39bcc99c56972d5c25e101b81738",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1039
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "98d88d4f36791b7ef6ea0140e4592cc0",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1036
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "cc4ecf0ba4b91239f186ac4a2dee51a0",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1033
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "5151cd935377768d66584eb099a5c7dd",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 1030
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "f090dfe5cc136932adb04e1764ad8847",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 954
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "365227ffbdea8c9035c0416f944d2485",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 940
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "5848a2d5a755ff8eae5877f396e05fb6",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 937
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "5d945bea2e9a96b66cf4a8031b9faa8a",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 934
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "1448728d6fcedaf66668f618809328f2",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 931
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0c3920a57c1391e8b0b9fb5b7a754875",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 928
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "2c6a217ce76c747bdf2019021204df2d",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 925
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "33522f92269a65064a24b72ff69dcba9",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 922
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "bb7c0bcd8f7c9bdb9b7a1bba529ce465",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 919
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "e84fed4ad7be4511b3770be41ab6cdfe",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 916
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "edbedd76d52e199895b5acb59459a2e4",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 913
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "13ac6942ff2982cb7ed498ceeb3c2448",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 910
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "c122b6cff6b49a57990c78eb7d7e3377",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 907
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "1e6afd1da58b70aed97444f08040153b",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 904
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "6f68607d2ee970424cb04379438ba407",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 901
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a7b6eeb7e1cc16bbbd52d54b8b3cf3ff",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 898
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "6f171915e5caa1a11569ab231c54ced1",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 895
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "44cd6d8f509fa4e9209467534a960ff2",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 892
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "6f02d3bc8327e5911946449a2f347613",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 889
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "be02b5fadc479099dbd793f16207c680",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 8
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "f91e01e37cd92c7f7c10cbadb0e70dce",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/custom-functions/oasDocumentSchema.js",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "ee1b1ba300d3a12157158da0d323c958",
+        "severity": "major",
+        "location": {
+            "path": "/terraform/production/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 111
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "c61ddf79df69940db496df0d05ff4d00",
+        "severity": "major",
+        "location": {
+            "path": "/terraform/production/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 110
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "3e4f33ea96844955c58612bd27f268f7",
+        "severity": "major",
+        "location": {
+            "path": "/terraform/staging/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 101
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "d830c10877042efd16aaf29e883f1a07",
+        "severity": "major",
+        "location": {
+            "path": "/terraform/staging/conf/jobs-values.yaml",
+            "lines": {
+                "begin": 100
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "dc1a9a071fd4941fbd3e12f5ac299709",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 2825
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "a1aa0945f7ea1a98f05a19b6ccff9423",
+        "severity": "major",
+        "location": {
+            "path": "/.stoplight/styleguide.json",
+            "lines": {
+                "begin": 1430
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "cb7b33174c9d021218713031c00cedc6",
+        "severity": "major",
+        "location": {
+            "path": "/helm-chart/jobs/values.yaml",
+            "lines": {
+                "begin": 94
+            }
+        }
+    },
+    {
+        "description": "Do not store tokens or keys in source code.",
+        "fingerprint": "5f7229c9349a1a101e7a1f19e11ac5f0",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 74
+            }
+        }
+    },
+    {
+        "description": "Do not store tokens or keys in source code.",
+        "fingerprint": "629a0a17e0d3fd5c721124a7d8737a1f",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 63
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "b181c22f739f73870955056d487e948d",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 110
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "42a0dcc4a24758ed90a2ae0f69c533bd",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 107
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7e5a91fadd5f8c950d812cef5980c481",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 102
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7fbfae407c051dd9026ef91578a1a691",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 99
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "afdd9ad730e438fb2e389478c59e957c",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 94
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "8c41ad5a4f2fe637b2a2aa289b901544",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 91
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "6d4228999d08f2a548c62f053387a7cd",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 88
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0d6d4355cc38130f8a4173c0e354721d",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 44
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "c3e09115151f7a6a7536858d9b393449",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 43
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "685f4e011c67432475c5c0d24c0fb38e",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 41
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "5476e48a91707e01a751a123d72c033c",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 38
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "e83f47d2799acbaa2e1074432682a522",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 21
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "38012ac2bbc38fd1170c4512859fbeb9",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 20
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0c2cb05c892298365f9781e0059c137b",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 19
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7af3d6831623ddbbc4e423721730fab9",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 18
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "4dc022869695c18993661ea229b028fa",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/kratos.yml",
+            "lines": {
+                "begin": 14
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "c95841cbdb5c5b13656c9aa57c343322",
+        "severity": "major",
+        "location": {
+            "path": "/.compose/identity.schema.json",
+            "lines": {
+                "begin": 3
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "4faf0d88135ab3d6805c87b733e7e324",
+        "severity": "major",
+        "location": {
+            "path": "/docker-compose.yml",
+            "lines": {
+                "begin": 15
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "c8e9d207d1f87f11811078818cfea3e9",
+        "severity": "major",
+        "location": {
+            "path": "/docker-compose.yml",
+            "lines": {
+                "begin": 7
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "409bb89c7b606054e5a0676fef50af24",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 748
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "387154e863db05b477c53f479a5c2989",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 747
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "d0023778d238999ec302eac17f8a4c05",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 742
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "d3c2900a98b8586edf5add23f103a728",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 739
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "81ac932722742592249550bd79397df4",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 734
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "164e12c1d062ca31b8ca9e86087aad8b",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 731
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "d8d640fcfe2ab0291905c4cd98c4bb56",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 719
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "f5e0e5479513b390fbf9d7908444ade2",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 718
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "7eb2eb7f099a66b0c468f742aebc7874",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 713
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0b36202fd204d4ba1cbb4b26ced792f2",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 710
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "0777d95344e1d1d8d932fb0f2bbca1e7",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 705
+            }
+        }
+    },
+    {
+        "description": "Insecure URL",
+        "fingerprint": "ea08464b14b994be1c5e7a4db6513a84",
+        "severity": "major",
+        "location": {
+            "path": "/reference/jobs.v1.yaml",
+            "lines": {
+                "begin": 702
+            }
+        }
+    },
+    {
+        "description": "generic-api-key has detected secret for file .compose/kratos.yml at commit c4dff01f5241333ad0d4b2608452378af22b4f09.",
+        "fingerprint": "8af4b7f0da87d8ada2bd4e32bc89576a",
+        "severity": "major",
+        "location": {
+            "path": ".compose/kratos.yml",
+            "lines": {
+                "begin": 62
+            }
+        }
+    },
+    {
+        "description": "generic-api-key has detected secret for file .compose/kratos.yml at commit c4dff01f5241333ad0d4b2608452378af22b4f09.",
+        "fingerprint": "daf6a4d801d95819ba7e5b842118d07f",
+        "severity": "major",
+        "location": {
+            "path": ".compose/kratos.yml",
+            "lines": {
+                "begin": 63
+            }
+        }
+    },
+    {
+        "description": "generic-api-key has detected secret for file .compose/kratos.yml at commit c4dff01f5241333ad0d4b2608452378af22b4f09.",
+        "fingerprint": "3507de4bea2851fb384ef4125e8c50a2",
+        "severity": "major",
+        "location": {
+            "path": ".compose/kratos.yml",
+            "lines": {
+                "begin": 74
+            }
+        }
+    },
+    {
+        "description": "Package: github.com/aws/aws-sdk-go\nInstalled Version: 1.42.12\nVulnerability CVE-2020-8911\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2020-8911](https://avd.aquasec.com/nvd/cve-2020-8911)",
+        "fingerprint": "426bb053f29f1135a29ab715201c7a89",
+        "severity": "minor",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: github.com/aws/aws-sdk-go\nInstalled Version: 1.42.12\nVulnerability CVE-2020-8912\nSeverity: LOW\nFixed Version: \nLink: [CVE-2020-8912](https://avd.aquasec.com/nvd/cve-2020-8912)",
+        "fingerprint": "7913026490f9fce4c53f4effdadcedad",
+        "severity": "info",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: github.com/dgrijalva/jwt-go\nInstalled Version: 3.2.0+incompatible\nVulnerability CVE-2020-26160\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2020-26160](https://avd.aquasec.com/nvd/cve-2020-26160)",
+        "fingerprint": "313d271e41baf7643be26aa5563565ad",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: github.com/labstack/echo/v4\nInstalled Version: 4.2.1\nVulnerability CVE-2022-40083\nSeverity: CRITICAL\nFixed Version: 4.9.0\nLink: [CVE-2022-40083](https://avd.aquasec.com/nvd/cve-2022-40083)",
+        "fingerprint": "77e33548baccb5128547cbd2cfdb6269",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/crypto\nInstalled Version: 0.0.0-20210921155107-089bfa567519\nVulnerability CVE-2021-43565\nSeverity: HIGH\nFixed Version: 0.0.0-20211202192323-5770296d904e\nLink: [CVE-2021-43565](https://avd.aquasec.com/nvd/cve-2021-43565)",
+        "fingerprint": "3603bc62dc67ed8cfff07210ed12b62b",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/crypto\nInstalled Version: 0.0.0-20210921155107-089bfa567519\nVulnerability CVE-2022-27191\nSeverity: HIGH\nFixed Version: 0.0.0-20220314234659-1baeb1ce4c0b\nLink: [CVE-2022-27191](https://avd.aquasec.com/nvd/cve-2022-27191)",
+        "fingerprint": "6afd939acf2417498864fb6fe10fd54a",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/net\nInstalled Version: 0.0.0-20220805013720-a33c5aa5df48\nVulnerability CVE-2022-27664\nSeverity: HIGH\nFixed Version: 0.0.0-20220906165146-f3363e06e74c\nLink: [CVE-2022-27664](https://avd.aquasec.com/nvd/cve-2022-27664)",
+        "fingerprint": "bb1dbbec3c5a864e5a324d955348869d",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/net\nInstalled Version: 0.0.0-20220805013720-a33c5aa5df48\nVulnerability CVE-2022-41717\nSeverity: MEDIUM\nFixed Version: 0.4.0\nLink: [CVE-2022-41717](https://avd.aquasec.com/nvd/cve-2022-41717)",
+        "fingerprint": "b57767ffa13fff9f5f4d4f3d12ee9bb7",
+        "severity": "minor",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/net\nInstalled Version: 0.0.0-20220805013720-a33c5aa5df48\nVulnerability CVE-2022-41721\nSeverity: UNKNOWN\nFixed Version: 0.1.1-0.20221104162952-702349b0e862\nLink: [CVE-2022-41721](https://avd.aquasec.com/nvd/cve-2022-41721)",
+        "fingerprint": "dd4a48627aecfe8ad09bc06645a0d95d",
+        "severity": "info",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Package: golang.org/x/text\nInstalled Version: 0.3.7\nVulnerability CVE-2022-32149\nSeverity: HIGH\nFixed Version: 0.3.8\nLink: [CVE-2022-32149](https://avd.aquasec.com/nvd/cve-2022-32149)",
+        "fingerprint": "a652b7225b99f2ce31b7218e086dab69",
+        "severity": "major",
+        "location": {
+            "path": "library/go.mod",
+            "lines": {
+                "begin": 1
+            }
+        }
+    },
+    {
+        "description": "Artifact: Dockerfile\nType: dockerfile\nVulnerability DS002\nSeverity: HIGH\nMessage: Specify at least 1 USER command in Dockerfile with non-root user as argument\nLink: [DS002](https://avd.aquasec.com/misconfig/ds002)",
+        "fingerprint": "44c270f5cfbd44171077a68ab97e2966",
+        "severity": "major",
+        "location": {
+            "path": "Dockerfile",
+            "lines": {
+                "begin": 1
+            }
+        }
+    }
+]
