@@ -14,12 +14,7 @@
     "start": "tsc && out/bin/sarif-codeclimate.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.[tj]s\"",
-    "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",

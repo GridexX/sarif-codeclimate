@@ -2,7 +2,7 @@ import { ParserData, ParseResult, SarifObject, Severity } from '..';
 import { createHash } from 'crypto';
 
 // Generate a random md5 hash for the fingerprint
-const randomMD5 = (): string => createHash('md5').update(Math.random().toString()).digest('hex');
+const createMD5 = (input: string): string => createHash('md5').update(input).digest('hex');
 
 export function parse(sarifObject: SarifObject): ParseResult {
   const response: ParseResult = {
@@ -43,14 +43,18 @@ export function parse(sarifObject: SarifObject): ParseResult {
         severity = 'info';
       }
 
+      const description = result?.message?.text ?? '';
+      const path = result.locations?.at(0)?.physicalLocation?.artifactLocation?.uri?.replace('file:', '') ?? '';
+      const begin = result.locations?.at(0)?.physicalLocation?.region?.startLine ?? 0;
+
       const data: ParserData = {
-        description: result?.message?.text ?? '',
-        fingerprint: randomMD5(),
+        description,
+        fingerprint: createMD5(`${description} ${path} ${begin}`),
         severity,
         location: {
-          path: result.locations?.at(0)?.physicalLocation?.artifactLocation?.uri?.replace('file:', '') ?? '',
+          path,
           lines: {
-            begin: result.locations?.at(0)?.physicalLocation?.region?.startLine ?? 0,
+            begin,
           },
         },
       };
