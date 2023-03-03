@@ -34,6 +34,8 @@ program
       } catch (error) {
         console.log(red('Error while writing the output file'));
       }
+    } else {
+      console.log(red('No data to write'));
     }
 
     // Display errors from the parser if debug mode is enabled
