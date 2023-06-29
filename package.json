@@ -41,7 +41,7 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
-    "commander": "^10.0.0",
+    "commander": "^10.0.1",
     "minimist": "^1.2.6"
   },
   "devDependencies": {
