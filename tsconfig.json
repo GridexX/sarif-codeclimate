@@ -4,7 +4,8 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./out",
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
