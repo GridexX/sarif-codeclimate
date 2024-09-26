@@ -4,12 +4,14 @@ import { Command } from 'commander';
 import { green, red } from 'colors';
 import { writeFileSync } from 'fs';
 import { convert } from '../lib/converter';
+import { version } from '../../package.json';
+
 const program = new Command();
 
 program
   .name('sarif-codeclimate')
   .description('Converts a SARIF file to a Code Climate JSON file')
-  .version('2.0.0')
+  .version(version)
   .requiredOption('-i, --input <path>', 'Path to the SARIF file')
   .option('-o, --output <path>', 'Path to the Code Climate JSON file')
   .action((options) => {
